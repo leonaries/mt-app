@@ -11,11 +11,11 @@
 </template>
 
 <script>
-  const  Myheader  = require ('@/components/public/header/index.vue')
+  import  Myheader  from  '@/components/public/header/index.vue'
   export default {
     name:'default',
     components:{
-      Myheader:Myheader
+      myHeader:Myheader
     }
   }
 </script>
