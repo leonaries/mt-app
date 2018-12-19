@@ -1,12 +1,12 @@
 <template>
   <div class="search-panel">
     <el-row>
-      <el-col :span="3" class="left">
+      <el-col :span="2" class="left">
         <img
           src="//s0.meituan.net/bs/fe-web-meituan/e5eeaef/img/logo.png"
           alt="美团">
       </el-col>
-      <el-col :span="15" class="center">
+      <el-col :span="13" class="center">
         <div class="wrapper">
           <el-input placeholder="搜索商家或者地点" v-model="search"/>
           <button class="el-button el-button--primary"><i class="el-icon-search"/></button>
@@ -51,7 +51,7 @@
           </li>
         </ul>
       </el-col>
-      <el-col :span="6" class="right">
+      <el-col :span="5" class="right">
         <ul class="security">
           <li>
             <i class="refund"/><p class="txt">随时退</p>
